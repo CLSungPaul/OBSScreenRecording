@@ -1,5 +1,5 @@
 # OBSScreenRecording
-Here I take a note about how to use obs studio for automatic screen recording. /n
+Here I take a note about how to use obs studio for automatic screen recording. \n
 It provides a method to auto-record and auto-stop.
 
 # OBS螢幕錄影
