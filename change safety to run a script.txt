@@ -8,7 +8,7 @@
 
    2-2. Scene collection
 	  >> new
-	    >>  "-name your scene-" ("UF 2025 Plant Science Symposium")
+	    >>  "-name your scene-" ("test")
 
    2-3.	add the sources you want in your scene 
 	(here I only use 2 sources: "Display Capture" and "Audio Output Capture",
