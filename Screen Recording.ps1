@@ -30,5 +30,5 @@ Start-Process -FilePath $obsPath -ArgumentList "--startrecording --profile $prof
 Start-Sleep -Seconds $recordingTime
 Write-Host "stop recording!"
 
-# recording
+# force to stop recording
 Stop-Process -Name "obs64"
