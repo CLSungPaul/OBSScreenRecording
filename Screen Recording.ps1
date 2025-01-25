@@ -8,7 +8,7 @@
   # Define paths
     $obsPath = "obs64.exe"
     $profileName = "PowerShellScreenRecording"
-    $sceneName = "UF 2025 Plant Science Symposium"
+    $sceneName = "test"
     $displayCapture = "Display Capture"
     $audioOutputCapture = "Audio Output Capture"
 
