@@ -1,0 +1,26 @@
+# How to preserve the screen recording
+#preparation before recording
+1. download and install obs studio
+2. open obs studio and set the needed parameters
+   2-1. profile
+	  >> new
+	    >> "-name your profile-" ("PowerShellScreenRecording")
+
+   2-2. Scene collection
+	  >> new
+	    >>  "-name your scene-" ("UF 2025 Plant Science Symposium")
+
+   2-3.	add the sources you want in your scene 
+	(here I only use 2 sources: "Display Capture" and "Audio Output Capture",
+	 and name them literally)
+
+# ensure that contents of parameters in ps1 script is the same as the names you just set in previous steps.
+
+# change Execution Policy (safety status) to run a script
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+ 	# restore the policy: Set-ExecutionPolicy -ExecutionPolicy restricted
+
+# run the script
+powershell.exe -File "C:\Users\s9402\OneDrive\桌面\Screen Recording.ps1"
+  # or execute in background process
+     Start-Job -FilePath "C:\Users\s9402\OneDrive\桌面\Screen Recording.ps1" 
