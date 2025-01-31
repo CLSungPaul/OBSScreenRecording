@@ -26,6 +26,12 @@ Here I take a note about how to use obs studio for automatic screen recording. I
     powershell.exe -File "Screen Recording.ps1"
 #### or execute in background process
      Start-Job -FilePath "Screen Recording.ps1" 
+     
+## FAQ
+1. Why does the warning window appear in my next-time OBS studio opening?
+
+   A: It is normal because the last step of ps1 script which force to turn off OBS studio. Thus, OBS studio would show the warning message to you. Meanwhile, the warning window also block the code, so you have to open and check OBS studio after execute the ps1 script. Or you can improve the code to avoid the ptoblem :) (This problem would exist unitil I know how to fix it.)
+
 
 # OBS螢幕錄影
   這邊紀錄我如何使用OBS studio進行螢幕錄影。讓螢幕錄影自動開始與停止~~
@@ -54,3 +60,7 @@ Here I take a note about how to use obs studio for automatic screen recording. I
 #### 或在後台中執行
      Start-Job -FilePath "Screen Recording.ps1" 
 
+## 常見問題
+1. 為什麼我下次打開 OBS studio 時會出現警告視窗？
+
+   A: 這是正常的，因為 ps1 腳本的最後一步強制關閉了 OBS studio。因此，OBS studio 會顯示警告訊息。同時警告訊息也會阻止程式碼，因此執行ps1腳本後必須開啟並檢查OBS studio。或者你可以改進程式碼來避免這個問題 :) (直到我知道如何解決它之前，這個問題都會一直存在。)
